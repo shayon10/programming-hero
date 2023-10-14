@@ -1,0 +1,22 @@
+#header{
+    background-color: aquamarine;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 50px;
+    text-emphasis-color: red;
+}
+#pro{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-image-width: 50px 50px;
+    border-radius: 3px;
+    padding: 0% 20%;
+    #profile{
+        border: 5px solid black;
+    }
+         
+}
+#infor{
+    font-weight: bold;
+}
