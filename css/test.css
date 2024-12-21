@@ -1,22 +1,138 @@
-#header{
-    background-color: aquamarine;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+header {
+    background-color: #004085;
+    color: white;
+    padding: 40px 20px;
     text-align: center;
-    color: blueviolet;
-    text-shadow: 50px;
-    text-emphasis-color: red;
+    border-bottom: 4px solid #003366;
 }
-#pro{
-    background-color: antiquewhite;
-    border: 2px solid black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-image-width: 50px 50px;
-    border-radius: 3px;
-    padding: 0% 20%;
-    #profile{
-        border: 5px solid black;
-    }
-         
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
 }
-#infor{
+
+header h1::before {
+    content: "Md. Siamul Islam Shayon";
+    display: block;
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin: 10px 0 0;
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #004085;
     font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #003366;
+}
+
+section {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004085;
+    color: white;
+    border-top: 4px solid #003366;
+}
+
+h1, h2 {
+    color: #004085;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #004085;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #003366;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.research-section a {
+    color: #004085;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.research-section a:hover {
+    color: #003366;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
 }
